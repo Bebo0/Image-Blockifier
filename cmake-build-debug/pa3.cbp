@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="pa3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pa3">
+				<Option output="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/cmake-build-debug/pa3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 pa3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pa3/fast">
+				<Option output="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/cmake-build-debug/pa3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 pa3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/Bebo/Desktop/Desktop\ March\ 8th\ 2018/CPSC\ 221/pa3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/Makefile">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/PNG.o">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/RGBAPixel.o">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/cs221util/PNG.cpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/cs221util/PNG.h">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/cs221util/RGBAPixel.cpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/cs221util/RGBAPixel.h">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/cs221util/lodepng/lodepng.cpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/cs221util/lodepng/lodepng.h">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/images/given-prunedremb95.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/images/given-prunedrosa95.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/images/given-prunedstanleytotem95.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/images/given-prunedubctotem95.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/images/remb.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/images/rosa.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/images/stanley-totem-poles.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/images/ubc-totem-poles.png">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/lodepng.o">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/main.cpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/main.o">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/pa3">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/stats.cpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/stats.h">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/stats.o">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/twoDtree.cpp">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/twoDtree.h">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/twoDtree.o">
+			<Option target="pa3"/>
+		</Unit>
+		<Unit filename="/Users/Bebo/Desktop/Desktop March 8th 2018/CPSC 221/pa3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
