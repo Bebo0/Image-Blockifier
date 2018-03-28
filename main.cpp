@@ -18,6 +18,8 @@ int main()
 {
 
 	// read in image
+	PNG origImTest;
+	origImTest.readFromFile("images/testBlack.png");
 	PNG origIm1;
 	origIm1.readFromFile("images/stanley-totem-poles.png");
 	PNG origIm2;
@@ -36,9 +38,18 @@ int main()
 
 	// pair <int,int> ul = make_pair <0, 0>;
 	// pair <int,int> lr = make_pair <origIm1.width(), origIm1.height()>;
-	stats s = stats(origIm1);
+	stats s = stats(origImTest);
 	printf("%li\n", s.getSum('r', foo, bar ));
-	//printf("%li\n", s.getSumSq('r', foo, bar ));
+	printf("%li\n", s.getSum('g', foo, bar ));
+	printf("%li\n", s.getSum('b', foo, bar ));
+
+
+	printf("%li\n", s.getSumSq('r', foo, bar ));
+	printf("%li\n", s.getSumSq('g', foo, bar ));
+	printf("%li\n", s.getSumSq('b', foo, bar ));
+	//
+	//
+	s.printValues();
 
 
 

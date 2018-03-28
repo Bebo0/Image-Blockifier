@@ -40,6 +40,8 @@ public:
 
 	long getSumSq(char channel, pair<int,int> ul, pair<int,int> lr);
 
+	void printValues();
+
 	// initialize the private vectors so that, for each color,  entry 
 	// (x,y) is the cumulative sum of the the color values from (0,0)
 	// to (x,y). Similarly, the sumSq vectors are the cumulative

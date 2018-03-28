@@ -84,7 +84,14 @@ twoDtree::twoDtree(PNG & imIn){
    */
   
 twoDtree::Node * twoDtree::buildTree(stats & s, pair<int,int> ul, pair<int,int> lr) {
-	/* your code here */
+	
+  // Node* node = new Node()
+
+  // node->left = buildTree()
+
+  // node->right = buildTree()
+
+  // return node;
 }
 
 /**
