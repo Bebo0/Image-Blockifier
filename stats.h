@@ -12,12 +12,20 @@ using namespace cs221util;
 class stats {
 
 private:
+	
+	
 	vector< vector< long >> sumRed;
 	vector< vector< long >> sumGreen;
 	vector< vector< long >> sumBlue;
 	vector< vector< long >> sumsqRed;
 	vector< vector< long >> sumsqGreen;
 	vector< vector< long >> sumsqBlue;
+
+
+	
+	long getSum(char channel, pair<int,int> ul, pair<int,int> lr);
+
+	
 
 	/* returns the sums of all pixel values across the color channel.
 	* useful in computing the score of a rectangle
@@ -26,7 +34,7 @@ private:
 	* @param ul is (x,y) of the upper left corner of the rectangle 
 	* @param lr is (x,y) of the lower right corner of the rectangle */
 	
-
+	long getSumSq(char channel, pair<int,int> ul, pair<int,int> lr);
 	/* returns the sums of squares of all pixel values across the color channel.
 	* useful in computing the score of a rectangle
 	* PA3 function
@@ -36,9 +44,9 @@ private:
 	
 
 public:
-	long getSum(char channel, pair<int,int> ul, pair<int,int> lr);
 
-	long getSumSq(char channel, pair<int,int> ul, pair<int,int> lr);
+
+	
 
 	void printValues();
 
