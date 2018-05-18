@@ -204,6 +204,7 @@ void twoDtree::renderHelper(Node* root, PNG &myPng) {
 * You may want a recursive helper function for this one.
 */
 void twoDtree::prune(double pct, int tol) {
+	// unfinished
 	/* your code here */
 }
 
